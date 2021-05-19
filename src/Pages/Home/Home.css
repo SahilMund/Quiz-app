@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+.content {
+    display: flex;
+    justify-content: center;
+    background-color: #f6f6f6a4;
+}
+
+.settings {
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+.banner {
+    width: 55%;
+    align-self: center;
+    padding: 8px;
+}
+
+.txt {
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+}
+
+@media (max-width: 800px) {
+    .content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .banner {
+        width: 85%;
+        padding: 0;
+        padding-top: 20px;
+    }
+    .settings {
+        width: 100%;
+    }
+    .txt {
+        font-size: 15px;
+    }
+}
+
+.settings__select {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    flex: 0.8;
+    justify-content: space-evenly;
+}

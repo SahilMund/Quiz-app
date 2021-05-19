@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+.quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    flex-grow: 1;
+}
+
+.subtitle {
+    font-size: 20px;
+    /* border: 1px solid black; */
+    /* box-shadow: 4px 4px 2px black; */
+    padding: 5px 10px;
+}
+
+.MuiToolbar-root {
+    justify-content: space-between;
+}
+
+.quizInfo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.navbar {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.score_ques,
+.category_ques,
+.level_ques {
+    font-family: 'Just Another Hand', cursive;
+    font-size: larger;
+    letter-spacing: 2px;
+}
